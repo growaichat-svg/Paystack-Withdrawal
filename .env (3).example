@@ -1,0 +1,11 @@
+# Copy this file to .env for local use. NEVER commit .env to GitHub.
+PAYSTACK_SECRET_KEY=sk_test_xxxxxxxxxxxxxxxxxxxx
+# Any long random string. Your app sends it in the x-api-secret header.
+API_SECRET=change-this-to-a-long-random-string
+
+# Supabase: Project Settings -> API
+SUPABASE_URL=https://YOUR-PROJECT.supabase.co
+# Use the service_role key (server only, never in a frontend or app)
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+PORT=3000
