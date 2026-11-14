@@ -1,4 +1,3 @@
-Paystack-Withdrawal
 {
   "name": "paystack-withdrawals",
   "version": "1.0.0",
